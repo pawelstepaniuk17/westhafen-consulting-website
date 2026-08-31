@@ -17,32 +17,32 @@ const newsreader = Newsreader({
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" })
 
 export const metadata: Metadata = {
-  title: "JHC Consulting",
-  description: "JHC Consulting is a small private advisory practice. Counsel in writing, signed by its author, for chairs, chief executives, and board committees. Offices in Berlin and New York.",
+  title: "Westhafen Consulting",
+  description: "Westhafen Consulting is a small private advisory practice. Counsel in writing, signed by its author, for chairs, chief executives, and board committees. Offices in Berlin and New York.",
   keywords: ["executive advisory", "board advisory", "strategic counsel", "governance consulting", "written analysis", "independent advisory"],
-  metadataBase: new URL("https://jhcconsulting.net"),
+  metadataBase: new URL("https://westhafenconsulting.net"),
   alternates: {
-    canonical: "https://jhcconsulting.net",
+    canonical: "https://westhafenconsulting.net",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://jhcconsulting.net",
-    siteName: "JHC Consulting",
-    title: "JHC Consulting",
+    url: "https://westhafenconsulting.net",
+    siteName: "Westhafen Consulting",
+    title: "Westhafen Consulting",
     description: "A small private advisory practice. Counsel in writing, signed by its author, for chairs, chief executives, and board committees.",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "JHC Consulting",
+        alt: "Westhafen Consulting",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "JHC Consulting",
+    title: "Westhafen Consulting",
     description: "A small private advisory practice. Counsel in writing, signed by its author, for chairs, chief executives, and board committees.",
     images: ["/images/og-image.jpg"],
   },
@@ -60,14 +60,14 @@ export const metadata: Metadata = {
 export const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "JHC Consulting",
-  "url": "https://jhcconsulting.net",
+  "name": "Westhafen Consulting",
+  "url": "https://westhafenconsulting.net",
   "publisher": {
     "@type": "Organization",
-    "name": "JHC Consulting",
+    "name": "Westhafen Consulting",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://jhcconsulting.net/images/jhc-logo.png"
+      "url": "https://westhafenconsulting.net/images/westhafen-logo.png"
     }
   }
 }
@@ -75,11 +75,11 @@ export const websiteJsonLd = {
 export const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  "name": "JHC Consulting",
+  "name": "Westhafen Consulting",
   "description": "A small private advisory practice. Counsel in writing, signed by its author, for chairs, chief executives, and board committees.",
-  "url": "https://jhcconsulting.net",
-  "logo": "https://jhcconsulting.net/images/jhc-logo.png",
-  "email": "support@jhcconsulting.net",
+  "url": "https://westhafenconsulting.net",
+  "logo": "https://westhafenconsulting.net/images/westhafen-logo.png",
+  "email": "support@westhafenconsulting.net",
   "telephone": ["+49 176 160 21344", "+1 626 713 1308"],
   "foundingDate": "2024",
   "priceRange": "$$$$",
@@ -89,7 +89,7 @@ export const organizationJsonLd = {
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "Customer Service",
-    "email": "support@jhcconsulting.net",
+    "email": "support@westhafenconsulting.net",
     "telephone": ["+49 176 160 21344", "+1 626 713 1308"]
   },
   "address": [

@@ -43,10 +43,10 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">1. Introduction and Scope</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              JHC Consulting (referred to as &quot;JHC,&quot; &quot;the firm,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) operates this website and provides management advisory services from New York. This Privacy Policy describes how we collect, use, store, share, and protect personal information in connection with our website, our advisory services, and our business operations.
+              Westhafen Consulting (referred to as &quot;Westhafen,&quot; &quot;the firm,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) operates this website and provides management advisory services from New York. This Privacy Policy describes how we collect, use, store, share, and protect personal information in connection with our website, our advisory services, and our business operations.
             </p>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              This policy applies to information collected through our website (jhcconsulting.net), through email and telephone communications, through in-person meetings, and through the delivery of our advisory services. It does not apply to third-party websites that may be linked from our site.
+              This policy applies to information collected through our website (westhafenconsulting.net), through email and telephone communications, through in-person meetings, and through the delivery of our advisory services. It does not apply to third-party websites that may be linked from our site.
             </p>
             <p className="text-neutral-400 leading-relaxed">
               By using our website or engaging our services, you acknowledge that you have read and understood this Privacy Policy. If you do not agree with our practices, please do not use our website or provide us with your personal information.
@@ -135,7 +135,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">6. International Data Transfers</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              JHC Consulting is based in the United States and serves clients internationally. Your personal information may be transferred to and processed in countries other than your country of residence, including the United States. Where we receive personal data from the European Economic Area or the United Kingdom, we implement appropriate safeguards, including:
+              Westhafen Consulting is based in the United States and serves clients internationally. Your personal information may be transferred to and processed in countries other than your country of residence, including the United States. Where we receive personal data from the European Economic Area or the United Kingdom, we implement appropriate safeguards, including:
             </p>
             <ul className="list-disc list-inside text-neutral-400 space-y-2 ml-4">
               <li>Standard contractual clauses approved by the European Commission</li>
@@ -196,7 +196,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">10. Cookies and Similar Technologies</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              Our website uses cookies and similar technologies to collect information about your browsing activities. For detailed information about the cookies we use and how to manage your preferences, please see our <TransitionLink href="/cookie-policy" className="text-[#c9a35e] hover:underline">Cookie Policy</TransitionLink>.
+              Our website uses cookies and similar technologies to collect information about your browsing activities. For detailed information about the cookies we use and how to manage your preferences, please see our <TransitionLink href="/cookie-policy" className="text-[#9a2f43] hover:underline">Cookie Policy</TransitionLink>.
             </p>
           </section>
 
@@ -220,11 +220,11 @@ export default function PrivacyPolicyPage() {
               For questions about this Privacy Policy or to exercise your rights, please contact us:
             </p>
             <div className="text-neutral-400 space-y-1">
-              <p><strong>JHC Consulting</strong></p>
+              <p><strong>Westhafen Consulting</strong></p>
               <p>347 Fifth Avenue</p>
               <p>New York, NY 10016</p>
               <p>United States</p>
-              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#c9a35e] hover:underline">support@jhcconsulting.net</a></p>
+              <p className="mt-4">Email: <a href="mailto:support@westhafenconsulting.net" className="text-[#9a2f43] hover:underline">support@westhafenconsulting.net</a></p>
             </div>
           </section>
 
@@ -232,11 +232,11 @@ export default function PrivacyPolicyPage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related policies</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/terms-of-use" className="text-[#c9a35e] hover:underline text-sm">Terms of Use</TransitionLink>
-              <TransitionLink href="/cookie-policy" className="text-[#c9a35e] hover:underline text-sm">Cookie Policy</TransitionLink>
-              <TransitionLink href="/security-confidentiality" className="text-[#c9a35e] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
-              <TransitionLink href="/disclaimer" className="text-[#c9a35e] hover:underline text-sm">Disclaimer</TransitionLink>
-              <TransitionLink href="/accessibility" className="text-[#c9a35e] hover:underline text-sm">Accessibility</TransitionLink>
+              <TransitionLink href="/terms-of-use" className="text-[#9a2f43] hover:underline text-sm">Terms of Use</TransitionLink>
+              <TransitionLink href="/cookie-policy" className="text-[#9a2f43] hover:underline text-sm">Cookie Policy</TransitionLink>
+              <TransitionLink href="/security-confidentiality" className="text-[#9a2f43] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
+              <TransitionLink href="/disclaimer" className="text-[#9a2f43] hover:underline text-sm">Disclaimer</TransitionLink>
+              <TransitionLink href="/accessibility" className="text-[#9a2f43] hover:underline text-sm">Accessibility</TransitionLink>
             </div>
           </section>
         </div>

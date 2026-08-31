@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: "Page Not Found | JHC Consulting",
+  title: "Page Not Found | Westhafen Consulting",
   description: "The page you're looking for could not be found.",
 }
 
@@ -19,7 +19,7 @@ export default function NotFoundPage() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link 
             href="/" 
-            className="px-8 py-3 bg-[#c9a35e] text-white font-medium rounded-full hover:bg-[#b58a44] transition-colors"
+            className="px-8 py-3 bg-[#9a2f43] text-white font-medium rounded-full hover:bg-[#7f2536] transition-colors"
           >
             Return to home
           </Link>

@@ -230,7 +230,7 @@ export default function MethodPage() {
               },
             ].map((item, idx) => (
               <div key={idx} className="flex gap-4">
-                <span className="text-[#c9a35e] mt-1.5 flex-shrink-0">
+                <span className="text-[#9a2f43] mt-1.5 flex-shrink-0">
                   <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor">
                     <rect width="6" height="6" />
                   </svg>
@@ -254,7 +254,7 @@ export default function MethodPage() {
           </p>
           <TransitionLink href="/contact">
             <motion.button
-              className="inline-flex items-center gap-3 bg-[#c9a35e] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#b58a44] transition-colors"
+              className="inline-flex items-center gap-3 bg-[#9a2f43] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#7f2536] transition-colors"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >

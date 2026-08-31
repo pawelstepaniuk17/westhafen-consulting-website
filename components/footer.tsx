@@ -1,7 +1,6 @@
 "use client"
 
 import { TransitionLink } from "./transition-link"
-import Image from "next/image"
 
 export function Footer() {
   return (
@@ -9,14 +8,9 @@ export function Footer() {
       <div className="relative z-10 container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-20">
           <div>
-            <div className="bg-white rounded-lg p-3 inline-block mb-6">
-              <Image
-                src="/images/jhc-logo.png"
-                alt="JHC Consulting"
-                width={160}
-                height={56}
-                className="h-12 w-auto"
-              />
+            <div className="mb-6 flex items-baseline gap-2">
+              <span className="font-serif text-2xl leading-none tracking-tight text-foreground">Westhafen</span>
+              <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-primary">Consulting</span>
             </div>
             <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
               Private counsel. Written memoranda signed by their author. For chairs, chief executives, and board committees.
@@ -47,8 +41,8 @@ export function Footer() {
             <div className="space-y-4 text-neutral-300 text-sm leading-relaxed">
               <div>
                 <p className="text-neutral-400">
-                  <a href="mailto:support@jhcconsulting.net" className="hover:text-white transition-colors">
-                    support@jhcconsulting.net
+                  <a href="mailto:support@westhafenconsulting.net" className="hover:text-white transition-colors">
+                    support@westhafenconsulting.net
                   </a>
                 </p>
               </div>
@@ -69,7 +63,7 @@ export function Footer() {
         </div>
         <div className="pt-8 border-t border-white/[0.06] flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-neutral-500 text-xs">
-            &copy; {new Date().getFullYear()} JHC Consulting. All rights reserved.
+            &copy; {new Date().getFullYear()} Westhafen Consulting. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-4 text-neutral-500 text-xs uppercase tracking-widest">
             <TransitionLink href="/privacy-policy" className="hover:text-white transition-colors">Privacy</TransitionLink>

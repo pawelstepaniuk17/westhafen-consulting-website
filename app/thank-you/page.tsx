@@ -1,8 +1,8 @@
 import Link from "next/link"
 
 export const metadata = {
-  title: "Thank You | JHC Consulting",
-  description: "Thank you for reaching out to JHC Consulting.",
+  title: "Thank You | Westhafen Consulting",
+  description: "Thank you for reaching out to Westhafen Consulting.",
 }
 
 export default function ThankYouPage() {
@@ -23,7 +23,7 @@ export default function ThankYouPage() {
         </p>
         <Link 
           href="/" 
-          className="inline-block px-8 py-3 bg-[#c9a35e] text-white font-medium rounded-full hover:bg-[#b58a44] transition-colors"
+          className="inline-block px-8 py-3 bg-[#9a2f43] text-white font-medium rounded-full hover:bg-[#7f2536] transition-colors"
         >
           Return to home
         </Link>

@@ -43,7 +43,7 @@ export default function AccessibilityPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">Our Commitment to Accessibility</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              JHC Consulting is committed to ensuring that our website is accessible to all individuals, including those with disabilities. We believe that everyone should have equal access to information and functionality on the web, and we are continuously working to improve the accessibility and usability of our website.
+              Westhafen Consulting is committed to ensuring that our website is accessible to all individuals, including those with disabilities. We believe that everyone should have equal access to information and functionality on the web, and we are continuously working to improve the accessibility and usability of our website.
             </p>
             <p className="text-neutral-400 leading-relaxed">
               We strive to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA level, which defines requirements for designers and developers to improve accessibility for people with various disabilities, including visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities.
@@ -160,7 +160,7 @@ export default function AccessibilityPage() {
               We welcome your feedback on the accessibility of our website. If you encounter accessibility barriers or have suggestions for improvement, please contact us:
             </p>
             <div className="text-neutral-400 space-y-1 mb-6">
-              <p><strong>Email:</strong> <a href="mailto:support@jhcconsulting.net" className="text-[#c9a35e] hover:underline">support@jhcconsulting.net</a></p>
+              <p><strong>Email:</strong> <a href="mailto:support@westhafenconsulting.net" className="text-[#9a2f43] hover:underline">support@westhafenconsulting.net</a></p>
               <p><strong>Phone:</strong> +49 176 160 21344</p>
             </div>
             <p className="text-neutral-400 leading-relaxed mb-4">
@@ -202,10 +202,10 @@ export default function AccessibilityPage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related pages</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/contact" className="text-[#c9a35e] hover:underline text-sm">Contact Us</TransitionLink>
-              <TransitionLink href="/privacy-policy" className="text-[#c9a35e] hover:underline text-sm">Privacy Policy</TransitionLink>
-              <TransitionLink href="/terms-of-use" className="text-[#c9a35e] hover:underline text-sm">Terms of Use</TransitionLink>
-              <TransitionLink href="/cookie-policy" className="text-[#c9a35e] hover:underline text-sm">Cookie Policy</TransitionLink>
+              <TransitionLink href="/contact" className="text-[#9a2f43] hover:underline text-sm">Contact Us</TransitionLink>
+              <TransitionLink href="/privacy-policy" className="text-[#9a2f43] hover:underline text-sm">Privacy Policy</TransitionLink>
+              <TransitionLink href="/terms-of-use" className="text-[#9a2f43] hover:underline text-sm">Terms of Use</TransitionLink>
+              <TransitionLink href="/cookie-policy" className="text-[#9a2f43] hover:underline text-sm">Cookie Policy</TransitionLink>
             </div>
           </section>
         </div>

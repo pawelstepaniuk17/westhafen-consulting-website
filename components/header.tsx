@@ -35,11 +35,14 @@ export function Header() {
       className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-md"
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-6">
-        <TransitionLink href="/" className="flex items-center" onClick={() => setMobileOpen(false)}>
-          <span className="inline-flex items-center rounded-md bg-foreground px-2.5 py-1.5">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/jhc-logo.png" alt="JHC Consulting" className="h-6 w-auto" />
-          </span>
+        <TransitionLink
+          href="/"
+          className="flex items-baseline gap-2"
+          onClick={() => setMobileOpen(false)}
+          aria-label="Westhafen Consulting home"
+        >
+          <span className="font-serif text-xl leading-none tracking-tight text-foreground">Westhafen</span>
+          <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Consulting</span>
         </TransitionLink>
 
         <nav className="hidden items-center gap-9 text-xs uppercase tracking-[0.15em] text-muted-foreground md:flex">

@@ -21,17 +21,17 @@ export async function POST(request: NextRequest) {
 
     const resend = new Resend(apiKey)
 
-    // Domain jhcconsulting.net is verified in Resend.
+    // Domain westhafenconsulting.net is verified in Resend.
     // Send from a verified domain email address.
-    const senderEmail = "noreply@jhcconsulting.net"
-    const recipient = process.env.RESEND_TO_EMAIL || "support@jhcconsulting.net"
+    const senderEmail = "noreply@westhafenconsulting.net"
+    const recipient = process.env.RESEND_TO_EMAIL || "support@westhafenconsulting.net"
 
     console.log("[v0] Contact form submission received")
     console.log("[v0] Sender:", senderEmail)
     console.log("[v0] Recipient:", recipient)
 
     const inquiry = await resend.emails.send({
-      from: `JHC Consulting <${senderEmail}>`,
+      from: `Westhafen Consulting <${senderEmail}>`,
       to: recipient,
       replyTo: email,
       subject: `New inquiry from ${name}: ${subject}`,
