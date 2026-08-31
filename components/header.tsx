@@ -37,12 +37,21 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-6">
         <TransitionLink
           href="/"
-          className="flex items-baseline gap-2"
+          className="flex items-center gap-3"
           onClick={() => setMobileOpen(false)}
           aria-label="Westhafen Consulting home"
         >
-          <span className="font-serif text-xl leading-none tracking-tight text-foreground">Westhafen</span>
-          <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Consulting</span>
+          <img
+            src="/logo.svg"
+            alt="Westhafen Consulting logo"
+            width={32}
+            height={32}
+            className="h-8 w-8 object-contain shrink-0"
+          />
+          <div className="flex items-baseline gap-2">
+            <span className="font-serif text-xl leading-none tracking-tight text-foreground">Westhafen</span>
+            <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary">Consulting</span>
+          </div>
         </TransitionLink>
 
         <nav className="hidden items-center gap-9 text-xs uppercase tracking-[0.15em] text-muted-foreground md:flex">

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" fill="none">
+  <!-- Deep Midnight City Navy Background -->
+  <rect width="1024" height="1024" fill="#0B1220" />
+
+  <g transform="translate(512, 512) scale(0.92) translate(-512, -500)">
+    
+    <!-- 1. SOVEREIGN CRIMSON NORTH CARDINAL NEEDLE (#D32F4F) -->
+    <!-- Left needle facet (bright crimson) -->
+    <polygon points="512,148 468,430 512,380" fill="#E63956" />
+    <!-- Right needle facet (deep burgundy shadow) -->
+    <polygon points="512,148 556,430 512,380" fill="#B91C38" />
+
+    <!-- 2. SOUTH CARDINAL NEEDLE / CENTER V-KEEL -->
+    <!-- Left south facet (platinum) -->
+    <polygon points="512,680 468,430 512,380" fill="#F3EFEA" />
+    <!-- Right south facet (slate shadow) -->
+    <polygon points="512,680 556,430 512,380" fill="#64748B" />
+
+    <!-- 3. LEFT 'W' WING & OUTER PILLAR -->
+    <!-- Left outer apex to base -->
+    <polygon points="208,270 286,270 398,730 320,730" fill="#F3EFEA" />
+    <!-- Left inner diagonal rising to center needle -->
+    <polygon points="320,730 398,730 468,430 410,430" fill="#CBD5E1" />
+    <!-- Left outer shadow bevel -->
+    <polygon points="208,270 248,270 360,730 320,730" fill="#94A3B8" />
+
+    <!-- 4. RIGHT 'W' WING & OUTER PILLAR -->
+    <!-- Right outer apex to base -->
+    <polygon points="816,270 738,270 626,730 704,730" fill="#94A3B8" />
+    <!-- Right inner diagonal rising to center needle -->
+    <polygon points="704,730 626,730 556,430 614,430" fill="#64748B" />
+    <!-- Right outer shadow facet -->
+    <polygon points="816,270 776,270 664,730 704,730" fill="#475569" />
+
+    <!-- 5. HORIZONTAL MERIDIAN & TRANSATLANTIC TICKS (Berlin - NY) -->
+    <line x1="156" y1="430" x2="410" y2="430" stroke="#F3EFEA" stroke-width="6" stroke-linecap="round" />
+    <line x1="614" y1="430" x2="868" y2="430" stroke="#F3EFEA" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Left/Right Cardinal Star Ticks -->
+    <polygon points="156,430 200,412 186,430 200,448" fill="#E63956" />
+    <polygon points="868,430 824,412 838,430 824,448" fill="#B91C38" />
+
+    <!-- Center Optical Razor Line -->
+    <line x1="512" y1="148" x2="512" y2="680" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Bottom Port Baseline Bar -->
+    <line x1="260" y1="770" x2="764" y2="770" stroke="#64748B" stroke-width="4" stroke-linecap="round" />
+    <circle cx="512" cy="770" r="6" fill="#D32F4F" />
+  </g>
+</svg>
