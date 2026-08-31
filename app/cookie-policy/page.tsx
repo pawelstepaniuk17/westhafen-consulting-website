@@ -43,7 +43,7 @@ export default function CookiePolicyPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">1. Introduction</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              This Cookie Policy explains how JHC Consulting (&quot;JHC,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) uses cookies and similar tracking technologies when you visit our website at jhcconsulting.net (the &quot;Website&quot;). This policy should be read together with our Privacy Policy, which provides additional information about how we collect and process personal data.
+              This Cookie Policy explains how Westhafen Consulting (&quot;Westhafen,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) uses cookies and similar tracking technologies when you visit our website at westhafenconsulting.net (the &quot;Website&quot;). This policy should be read together with our Privacy Policy, which provides additional information about how we collect and process personal data.
             </p>
             <p className="text-neutral-400 leading-relaxed">
               By continuing to use our Website, you consent to the use of cookies as described in this policy. You can manage your cookie preferences at any time using the methods described in Section 6 below.
@@ -187,7 +187,7 @@ export default function CookiePolicyPage() {
               Some cookies on our Website are set by third parties. These third parties may include:
             </p>
             <ul className="list-disc list-inside text-neutral-400 space-y-2 mb-4 ml-4">
-              <li><strong>Google Analytics:</strong> We use Google Analytics to understand how visitors use our Website. Google may use the collected data to contextualize and personalize ads across its advertising network. You can learn more about Google&apos;s privacy practices at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-[#4a9eb3] hover:underline">policies.google.com/privacy</a>.</li>
+              <li><strong>Google Analytics:</strong> We use Google Analytics to understand how visitors use our Website. Google may use the collected data to contextualize and personalize ads across its advertising network. You can learn more about Google&apos;s privacy practices at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-[#d9556e] hover:underline">policies.google.com/privacy</a>.</li>
               <li><strong>Content Delivery Networks:</strong> We may use CDN services that set cookies to improve Website performance and security.</li>
             </ul>
             <p className="text-neutral-400 leading-relaxed">
@@ -205,14 +205,14 @@ export default function CookiePolicyPage() {
               Most web browsers allow you to control cookies through their settings preferences. You can typically find these settings in the &quot;Options&quot; or &quot;Preferences&quot; menu of your browser. The following links provide information on how to modify cookie settings for common browsers:
             </p>
             <ul className="list-disc list-inside text-neutral-400 space-y-2 mb-4 ml-4">
-              <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-[#4a9eb3] hover:underline">Google Chrome</a></li>
-              <li><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank" rel="noopener noreferrer" className="text-[#4a9eb3] hover:underline">Mozilla Firefox</a></li>
-              <li><a href="https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac" target="_blank" rel="noopener noreferrer" className="text-[#4a9eb3] hover:underline">Apple Safari</a></li>
-              <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" className="text-[#4a9eb3] hover:underline">Microsoft Edge</a></li>
+              <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-[#d9556e] hover:underline">Google Chrome</a></li>
+              <li><a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank" rel="noopener noreferrer" className="text-[#d9556e] hover:underline">Mozilla Firefox</a></li>
+              <li><a href="https://support.apple.com/guide/safari/manage-cookies-sfri11471/mac" target="_blank" rel="noopener noreferrer" className="text-[#d9556e] hover:underline">Apple Safari</a></li>
+              <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" className="text-[#d9556e] hover:underline">Microsoft Edge</a></li>
             </ul>
             <h3 className="font-serif text-lg mb-3 mt-6">6.2 Opt-Out Tools</h3>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-[#4a9eb3] hover:underline">Google Analytics Opt-out Browser Add-on</a>.
+              You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" className="text-[#d9556e] hover:underline">Google Analytics Opt-out Browser Add-on</a>.
             </p>
             <h3 className="font-serif text-lg mb-3 mt-6">6.3 Do Not Track</h3>
             <p className="text-neutral-400 leading-relaxed">
@@ -240,11 +240,11 @@ export default function CookiePolicyPage() {
               For questions about this Cookie Policy, please contact us:
             </p>
             <div className="text-neutral-400 space-y-1">
-              <p><strong>JHC Consulting</strong></p>
+              <p><strong>Westhafen Consulting</strong></p>
               <p>347 Fifth Avenue</p>
               <p>New York, NY 10016</p>
               <p>United States</p>
-              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#4a9eb3] hover:underline">support@jhcconsulting.net</a></p>
+              <p className="mt-4">Email: <a href="mailto:support@westhafenconsulting.net" className="text-[#d9556e] hover:underline">support@westhafenconsulting.net</a></p>
             </div>
           </section>
 
@@ -252,10 +252,10 @@ export default function CookiePolicyPage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related policies</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/privacy-policy" className="text-[#4a9eb3] hover:underline text-sm">Privacy Policy</TransitionLink>
-              <TransitionLink href="/terms-of-use" className="text-[#4a9eb3] hover:underline text-sm">Terms of Use</TransitionLink>
-              <TransitionLink href="/disclaimer" className="text-[#4a9eb3] hover:underline text-sm">Disclaimer</TransitionLink>
-              <TransitionLink href="/security-confidentiality" className="text-[#4a9eb3] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
+              <TransitionLink href="/privacy-policy" className="text-[#d9556e] hover:underline text-sm">Privacy Policy</TransitionLink>
+              <TransitionLink href="/terms-of-use" className="text-[#d9556e] hover:underline text-sm">Terms of Use</TransitionLink>
+              <TransitionLink href="/disclaimer" className="text-[#d9556e] hover:underline text-sm">Disclaimer</TransitionLink>
+              <TransitionLink href="/security-confidentiality" className="text-[#d9556e] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
             </div>
           </section>
         </div>

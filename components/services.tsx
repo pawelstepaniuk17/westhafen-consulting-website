@@ -76,7 +76,7 @@ export function Services() {
   )
 
   return (
-    <section ref={container} id="services" className="relative py-24 md:py-40 px-6 overflow-hidden">
+    <section ref={container} id="services" className="relative py-20 md:py-28 px-6 overflow-hidden">
       <GridPattern />
       <div className="relative container mx-auto max-w-6xl">
         {/* Header with image */}
@@ -97,7 +97,7 @@ export function Services() {
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 600px"
             />
-            <div className="absolute inset-0 bg-[#0a0a0a]/20" />
+            <div className="absolute inset-0 bg-[#0b1220]/20" />
             <div className="absolute top-3 left-3 w-8 h-8 border-t border-l border-white/15" />
             <div className="absolute bottom-3 right-3 w-8 h-8 border-b border-r border-white/15" />
           </div>
@@ -108,7 +108,7 @@ export function Services() {
           {services.map((service) => (
             <div
               key={service.number}
-              className="service-card bg-[#0a0a0a] p-8 md:p-10 flex flex-col group hover:bg-white/[0.02] transition-colors duration-500"
+              className="service-card bg-[#0b1220] p-8 md:p-10 flex flex-col group hover:bg-white/[0.02] transition-colors duration-500"
             >
               <span className="text-xs text-neutral-600 tracking-widest mb-6 font-mono">
                 {service.number}
@@ -127,7 +127,7 @@ export function Services() {
         </div>
         <div className="mt-16 text-center">
           <TransitionLink href="/mandates">
-            <button className="inline-flex items-center gap-3 border border-white/20 text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide transition-all duration-300 hover:bg-white/5 hover:scale-[1.02] active:scale-[0.98]">
+            <button className="inline-flex items-center gap-3 border border-primary/40 text-foreground font-medium py-3 px-8 rounded-md text-sm tracking-wide transition-all duration-300 hover:bg-primary/10 hover:scale-[1.02] active:scale-[0.98]">
               The full mandate list <ArrowRight size={16} />
             </button>
           </TransitionLink>

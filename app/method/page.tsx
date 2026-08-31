@@ -174,7 +174,7 @@ export default function MethodPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/[0.06]">
             {principles.map((principle, idx) => (
-              <div key={idx} className="bg-[#0a0a0a] p-8 group hover:bg-white/[0.02] transition-colors duration-500">
+              <div key={idx} className="bg-[#0b1220] p-8 group hover:bg-white/[0.02] transition-colors duration-500">
                 <span className="text-xs text-neutral-600 tracking-widest font-mono mb-4 block">0{idx + 1}</span>
                 <h3 className="font-serif text-lg mb-3">{principle.title}</h3>
                 <p className="text-neutral-400 text-sm leading-relaxed">{principle.body}</p>
@@ -230,7 +230,7 @@ export default function MethodPage() {
               },
             ].map((item, idx) => (
               <div key={idx} className="flex gap-4">
-                <span className="text-[#4a9eb3] mt-1.5 flex-shrink-0">
+                <span className="text-[#d9556e] mt-1.5 flex-shrink-0">
                   <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor">
                     <rect width="6" height="6" />
                   </svg>
@@ -254,7 +254,7 @@ export default function MethodPage() {
           </p>
           <TransitionLink href="/contact">
             <motion.button
-              className="inline-flex items-center gap-3 bg-[#4a9eb3] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#3d8a9d] transition-colors"
+              className="inline-flex items-center gap-3 bg-[#9a2f43] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#7f2536] transition-colors"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >

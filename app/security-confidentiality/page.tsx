@@ -43,7 +43,7 @@ export default function SecurityConfidentialityPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">Our Commitment</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              At JHC Consulting, the protection of client information is not a compliance exercise. It is the foundation on which all advisory work depends. Leadership teams share sensitive information with us because they trust it will remain protected. We treat that trust as the central condition of effective advisory work.
+              At Westhafen Consulting, the protection of client information is not a compliance exercise. It is the foundation on which all advisory work depends. Leadership teams share sensitive information with us because they trust it will remain protected. We treat that trust as the central condition of effective advisory work.
             </p>
             <p className="text-neutral-400 leading-relaxed">
               This page describes the security measures, confidentiality practices, and data protection commitments that underpin our advisory relationships. These commitments apply to all client engagements and extend to prospective clients during the inquiry and evaluation process.
@@ -160,7 +160,7 @@ export default function SecurityConfidentialityPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">Client Responsibilities</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              Effective information security requires cooperation between JHC and our clients. We ask clients to:
+              Effective information security requires cooperation between Westhafen and our clients. We ask clients to:
             </p>
             <ul className="list-disc list-inside text-neutral-400 space-y-2 ml-4">
               <li>Identify any particularly sensitive information and any specific handling requirements before sharing it with us</li>
@@ -176,11 +176,11 @@ export default function SecurityConfidentialityPage() {
               If you have questions about our security and confidentiality practices, or if you wish to report a security concern, please contact us:
             </p>
             <div className="text-neutral-400 space-y-1">
-              <p><strong>JHC Consulting</strong></p>
+              <p><strong>Westhafen Consulting</strong></p>
               <p>347 Fifth Avenue</p>
               <p>New York, NY 10016</p>
               <p>United States</p>
-              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#4a9eb3] hover:underline">support@jhcconsulting.net</a></p>
+              <p className="mt-4">Email: <a href="mailto:support@westhafenconsulting.net" className="text-[#d9556e] hover:underline">support@westhafenconsulting.net</a></p>
             </div>
           </section>
 
@@ -188,10 +188,10 @@ export default function SecurityConfidentialityPage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related policies</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/privacy-policy" className="text-[#4a9eb3] hover:underline text-sm">Privacy Policy</TransitionLink>
-              <TransitionLink href="/terms-of-use" className="text-[#4a9eb3] hover:underline text-sm">Terms of Use</TransitionLink>
-              <TransitionLink href="/cookie-policy" className="text-[#4a9eb3] hover:underline text-sm">Cookie Policy</TransitionLink>
-              <TransitionLink href="/disclaimer" className="text-[#4a9eb3] hover:underline text-sm">Disclaimer</TransitionLink>
+              <TransitionLink href="/privacy-policy" className="text-[#d9556e] hover:underline text-sm">Privacy Policy</TransitionLink>
+              <TransitionLink href="/terms-of-use" className="text-[#d9556e] hover:underline text-sm">Terms of Use</TransitionLink>
+              <TransitionLink href="/cookie-policy" className="text-[#d9556e] hover:underline text-sm">Cookie Policy</TransitionLink>
+              <TransitionLink href="/disclaimer" className="text-[#d9556e] hover:underline text-sm">Disclaimer</TransitionLink>
             </div>
           </section>
         </div>

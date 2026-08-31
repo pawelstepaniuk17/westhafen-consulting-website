@@ -3,6 +3,7 @@
 import { useRef } from "react"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
+import Image from "next/image"
 import { TransitionLink } from "@/components/transition-link"
 import { ArrowDown } from "lucide-react"
 
@@ -13,13 +14,19 @@ export function Hero() {
     () => {
       const tl = gsap.timeline()
       tl.fromTo(
-        ".hero-title span",
-        { y: 100, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.12, duration: 1.2, ease: "power3.out" },
+        ".hero-eyebrow",
+        { y: 20, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.8, ease: "power3.out" },
       )
         .fromTo(
+          ".hero-title span span",
+          { y: 120, opacity: 0 },
+          { y: 0, opacity: 1, stagger: 0.1, duration: 1.1, ease: "power3.out" },
+          "-=0.4",
+        )
+        .fromTo(
           ".hero-subtitle",
-          { y: 50, opacity: 0 },
+          { y: 40, opacity: 0 },
           { y: 0, opacity: 1, duration: 0.8, ease: "power3.out" },
           "-=0.6",
         )
@@ -27,7 +34,7 @@ export function Hero() {
           ".hero-line",
           { scaleX: 0 },
           { scaleX: 1, duration: 1, ease: "power3.inOut" },
-          "-=0.4",
+          "-=0.5",
         )
         .fromTo(
           ".hero-button",
@@ -39,35 +46,55 @@ export function Hero() {
     { scope: container },
   )
 
-  const words = ["Written", "before", "the", "decision", "is", "taken."]
+  const words = ["Judgment", "for", "the", "decisions", "that", "endure."]
   const splitTitle = words.map((word, i) => (
-    <span key={i} className="inline-block overflow-hidden">
-      <span className="inline-block">{word}&nbsp;</span>
+    <span key={i} className="inline-block overflow-hidden align-bottom pb-[0.3em] -mb-[0.3em] pl-[0.12em] -ml-[0.12em]">
+      <span className={`inline-block ${word === "Judgment" ? "font-serif italic text-primary pr-[0.1em]" : ""}`}>
+        {word}&nbsp;
+      </span>
     </span>
   ))
 
   return (
-    <div ref={container} className="relative w-full h-screen overflow-hidden bg-[#0a0a0a]">
-      {/* Subtle gradient background */}
+    <section
+      ref={container}
+      className="relative w-full min-h-[100svh] overflow-hidden bg-background"
+    >
+      {/* Cover photograph with navy scrim for readability */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-[#0d1117] to-[#0a0a0a]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(74,158,179,0.08)_0%,_transparent_70%)]" />
+        <Image
+          src="/images/hero-boardroom.jpg"
+          alt="Senior advisers in discussion over documents in a boardroom at dusk"
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/85 via-background/70 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent" />
       </div>
-      
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6">
-        <h1 className="hero-title font-serif font-normal text-4xl md:text-6xl lg:text-8xl mb-8 max-w-5xl leading-tight text-balance">
+
+      <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-center px-6 pt-28 pb-20 sm:pt-36 md:pt-44">
+        <p className="hero-eyebrow mb-6 font-mono text-[11px] uppercase tracking-[0.35em] text-primary">
+          Private Advisory &middot; Berlin &amp; New York
+        </p>
+        <h1 className="hero-title max-w-4xl font-serif font-semibold text-[52px] leading-[1.0] tracking-[-0.025em] text-balance sm:text-7xl md:text-8xl lg:text-[6.5rem]">
           {splitTitle}
         </h1>
-        <div className="hero-line w-16 h-px bg-white/30 mb-8 origin-center" />
-        <p className="hero-subtitle text-base md:text-lg lg:text-xl max-w-2xl mb-10 text-neutral-400 leading-relaxed">
-          A private advisory practice. Counsel for chairs, chief executives, and board committees on questions that will be consequential past the meeting in which they are decided. Written, signed, and kept on file. Offices in Berlin and New York.
+        <div className="hero-line mt-10 mb-8 h-px w-16 origin-left bg-primary/60" />
+        <p className="hero-subtitle max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+          A private advisory practice. Counsel for chairs, chief executives, and board committees on questions that will
+          be consequential past the meeting in which they are decided. Written, signed, and kept on file. Offices in
+          Berlin and New York.
         </p>
-        <TransitionLink href="/#services">
-          <button className="hero-button flex items-center gap-3 border border-white/20 text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide transition-colors duration-300 hover:bg-white/5">
-            The forms of counsel <ArrowDown size={16} />
-          </button>
-        </TransitionLink>
+        <div className="hero-button mt-10">
+          <TransitionLink href="/#services">
+            <button className="inline-flex items-center gap-3 rounded-md border border-primary/40 px-8 py-3.5 text-sm font-medium tracking-wide text-foreground transition-colors duration-300 hover:bg-primary/10">
+              The forms of counsel <ArrowDown size={16} className="text-primary" />
+            </button>
+          </TransitionLink>
+        </div>
       </div>
-    </div>
+    </section>
   )
 }

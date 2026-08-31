@@ -43,20 +43,20 @@ export default function TermsOfUsePage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">1. Acceptance of Terms</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              These Terms of Use (&quot;Terms&quot;) govern your access to and use of the website operated by JHC Consulting (&quot;JHC,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) at jhcconsulting.net (the &quot;Website&quot;). By accessing or using the Website, you agree to be bound by these Terms and our Privacy Policy.
+              These Terms of Use (&quot;Terms&quot;) govern your access to and use of the website operated by Westhafen Consulting (&quot;Westhafen,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) at westhafenconsulting.net (the &quot;Website&quot;). By accessing or using the Website, you agree to be bound by these Terms and our Privacy Policy.
             </p>
             <p className="text-neutral-400 leading-relaxed mb-4">
               If you do not agree to these Terms, you must not access or use the Website. We reserve the right to modify these Terms at any time. Changes will be effective upon posting to the Website. Your continued use of the Website after any modifications constitutes acceptance of the updated Terms.
             </p>
             <p className="text-neutral-400 leading-relaxed">
-              These Terms do not govern the provision of advisory services, which are subject to separate engagement agreements between JHC and its clients.
+              These Terms do not govern the provision of advisory services, which are subject to separate engagement agreements between Westhafen and its clients.
             </p>
           </section>
 
           <section>
             <h2 className="font-serif text-2xl mb-4">2. Description of Website and Services</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              The Website provides information about JHC Consulting, our advisory services, our approach to management consulting, and related content. The Website also provides a means for prospective clients and other interested parties to contact us regarding potential engagements.
+              The Website provides information about Westhafen Consulting, our advisory services, our approach to management consulting, and related content. The Website also provides a means for prospective clients and other interested parties to contact us regarding potential engagements.
             </p>
             <p className="text-neutral-400 leading-relaxed">
               We reserve the right to modify, suspend, or discontinue any aspect of the Website at any time without notice. We shall not be liable to you or any third party for any modification, suspension, or discontinuation of the Website.
@@ -67,7 +67,7 @@ export default function TermsOfUsePage() {
             <h2 className="font-serif text-2xl mb-4">3. Intellectual Property Rights</h2>
             <h3 className="font-serif text-lg mb-3 mt-6">3.1 Ownership</h3>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              The Website and its contents, including but not limited to text, graphics, images, logos, icons, photographs, audio and video clips, data compilations, software, and the selection and arrangement thereof (collectively, &quot;Content&quot;), are owned by JHC Consulting or its licensors and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
+              The Website and its contents, including but not limited to text, graphics, images, logos, icons, photographs, audio and video clips, data compilations, software, and the selection and arrangement thereof (collectively, &quot;Content&quot;), are owned by Westhafen Consulting or its licensors and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
             </p>
             <h3 className="font-serif text-lg mb-3 mt-6">3.2 Limited License</h3>
             <p className="text-neutral-400 leading-relaxed mb-4">
@@ -82,7 +82,7 @@ export default function TermsOfUsePage() {
             </ul>
             <h3 className="font-serif text-lg mb-3 mt-6">3.3 Trademarks</h3>
             <p className="text-neutral-400 leading-relaxed">
-              &quot;JHC Consulting,&quot; the JHC logo, and other marks used on the Website are trademarks or service marks of JHC Consulting. You may not use these marks without our prior written permission. Other trademarks, service marks, and logos used on the Website are the property of their respective owners.
+              &quot;Westhafen Consulting,&quot; the Westhafen logo, and other marks used on the Website are trademarks or service marks of Westhafen Consulting. You may not use these marks without our prior written permission. Other trademarks, service marks, and logos used on the Website are the property of their respective owners.
             </p>
           </section>
 
@@ -94,7 +94,7 @@ export default function TermsOfUsePage() {
             <ul className="list-disc list-inside text-neutral-400 space-y-2 ml-4">
               <li>Use the Website in any way that violates any applicable local, national, or international law or regulation</li>
               <li>Use the Website to transmit or procure the sending of any advertising or promotional material without our prior written consent</li>
-              <li>Impersonate or attempt to impersonate JHC, a JHC employee, another user, or any other person or entity</li>
+              <li>Impersonate or attempt to impersonate Westhafen, a Westhafen employee, another user, or any other person or entity</li>
               <li>Engage in any conduct that restricts or inhibits anyone&apos;s use or enjoyment of the Website</li>
               <li>Introduce any viruses, Trojan horses, worms, logic bombs, or other malicious or technologically harmful material</li>
               <li>Attempt to gain unauthorized access to, interfere with, damage, or disrupt any parts of the Website, servers, or networks connected to the Website</li>
@@ -105,10 +105,10 @@ export default function TermsOfUsePage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">5. User Communications</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              By submitting information through the Website, including through contact forms, you grant JHC a non-exclusive, royalty-free, perpetual, irrevocable right to use, reproduce, modify, and distribute such information solely for the purpose of responding to your inquiry and, if applicable, evaluating a potential business relationship.
+              By submitting information through the Website, including through contact forms, you grant Westhafen a non-exclusive, royalty-free, perpetual, irrevocable right to use, reproduce, modify, and distribute such information solely for the purpose of responding to your inquiry and, if applicable, evaluating a potential business relationship.
             </p>
             <p className="text-neutral-400 leading-relaxed">
-              You represent and warrant that you have the right to submit any information you provide and that such information does not violate the rights of any third party. Confidential information should not be submitted through the Website without first establishing a formal confidentiality arrangement with JHC.
+              You represent and warrant that you have the right to submit any information you provide and that such information does not violate the rights of any third party. Confidential information should not be submitted through the Website without first establishing a formal confidentiality arrangement with Westhafen.
             </p>
           </section>
 
@@ -130,7 +130,7 @@ export default function TermsOfUsePage() {
             </p>
             <h3 className="font-serif text-lg mb-3 mt-6">7.2 As-Is Basis</h3>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              THE WEBSITE AND ITS CONTENT ARE PROVIDED ON AN &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; BASIS WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY LAW, JHC DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND TITLE.
+              THE WEBSITE AND ITS CONTENT ARE PROVIDED ON AN &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; BASIS WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY LAW, Westhafen DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND TITLE.
             </p>
             <h3 className="font-serif text-lg mb-3 mt-6">7.3 No Guarantee of Accuracy</h3>
             <p className="text-neutral-400 leading-relaxed">
@@ -141,7 +141,7 @@ export default function TermsOfUsePage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">8. Limitation of Liability</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL JHC, ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, AFFILIATES, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF OR INABILITY TO USE THE WEBSITE, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES.
+              TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL Westhafen, ITS DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, AFFILIATES, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF OR INABILITY TO USE THE WEBSITE, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES.
             </p>
             <p className="text-neutral-400 leading-relaxed">
               IN NO EVENT SHALL OUR TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, OR CAUSES OF ACTION EXCEED THE AMOUNT YOU HAVE PAID TO US, IF ANY, FOR ACCESSING THE WEBSITE DURING THE TWELVE (12) MONTHS PRIOR TO THE CLAIM.
@@ -151,7 +151,7 @@ export default function TermsOfUsePage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">9. Indemnification</h2>
             <p className="text-neutral-400 leading-relaxed">
-              You agree to indemnify, defend, and hold harmless JHC and its directors, officers, employees, agents, affiliates, and licensors from and against any claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys&apos; fees) arising out of or related to your use of the Website, your violation of these Terms, or your violation of any rights of another.
+              You agree to indemnify, defend, and hold harmless Westhafen and its directors, officers, employees, agents, affiliates, and licensors from and against any claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys&apos; fees) arising out of or related to your use of the Website, your violation of these Terms, or your violation of any rights of another.
             </p>
           </section>
 
@@ -161,7 +161,7 @@ export default function TermsOfUsePage() {
               These Terms shall be governed by and construed in accordance with the laws of the State of New York, United States, without regard to its conflict of law provisions. You agree to submit to the exclusive jurisdiction of the state and federal courts located in New York County, New York, for the resolution of any disputes arising out of or relating to these Terms or your use of the Website.
             </p>
             <p className="text-neutral-400 leading-relaxed">
-              Notwithstanding the foregoing, JHC may seek injunctive or other equitable relief in any court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation, or violation of our intellectual property rights or other proprietary rights.
+              Notwithstanding the foregoing, Westhafen may seek injunctive or other equitable relief in any court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation, or violation of our intellectual property rights or other proprietary rights.
             </p>
           </section>
 
@@ -175,14 +175,14 @@ export default function TermsOfUsePage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">12. Waiver</h2>
             <p className="text-neutral-400 leading-relaxed">
-              No waiver by JHC of any term or condition set out in these Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition. Any failure by JHC to exercise or enforce any right or provision of these Terms shall not constitute a waiver of such right or provision.
+              No waiver by Westhafen of any term or condition set out in these Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition. Any failure by Westhafen to exercise or enforce any right or provision of these Terms shall not constitute a waiver of such right or provision.
             </p>
           </section>
 
           <section>
             <h2 className="font-serif text-2xl mb-4">13. Entire Agreement</h2>
             <p className="text-neutral-400 leading-relaxed">
-              These Terms and our Privacy Policy constitute the entire agreement between you and JHC regarding your use of the Website and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, regarding the Website.
+              These Terms and our Privacy Policy constitute the entire agreement between you and Westhafen regarding your use of the Website and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, regarding the Website.
             </p>
           </section>
 
@@ -192,11 +192,11 @@ export default function TermsOfUsePage() {
               For questions about these Terms of Use, please contact us:
             </p>
             <div className="text-neutral-400 space-y-1">
-              <p><strong>JHC Consulting</strong></p>
+              <p><strong>Westhafen Consulting</strong></p>
               <p>347 Fifth Avenue</p>
               <p>New York, NY 10016</p>
               <p>United States</p>
-              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#4a9eb3] hover:underline">support@jhcconsulting.net</a></p>
+              <p className="mt-4">Email: <a href="mailto:support@westhafenconsulting.net" className="text-[#d9556e] hover:underline">support@westhafenconsulting.net</a></p>
             </div>
           </section>
 
@@ -204,11 +204,11 @@ export default function TermsOfUsePage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related policies</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/privacy-policy" className="text-[#4a9eb3] hover:underline text-sm">Privacy Policy</TransitionLink>
-              <TransitionLink href="/cookie-policy" className="text-[#4a9eb3] hover:underline text-sm">Cookie Policy</TransitionLink>
-              <TransitionLink href="/security-confidentiality" className="text-[#4a9eb3] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
-              <TransitionLink href="/disclaimer" className="text-[#4a9eb3] hover:underline text-sm">Disclaimer</TransitionLink>
-              <TransitionLink href="/accessibility" className="text-[#4a9eb3] hover:underline text-sm">Accessibility</TransitionLink>
+              <TransitionLink href="/privacy-policy" className="text-[#d9556e] hover:underline text-sm">Privacy Policy</TransitionLink>
+              <TransitionLink href="/cookie-policy" className="text-[#d9556e] hover:underline text-sm">Cookie Policy</TransitionLink>
+              <TransitionLink href="/security-confidentiality" className="text-[#d9556e] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
+              <TransitionLink href="/disclaimer" className="text-[#d9556e] hover:underline text-sm">Disclaimer</TransitionLink>
+              <TransitionLink href="/accessibility" className="text-[#d9556e] hover:underline text-sm">Accessibility</TransitionLink>
             </div>
           </section>
         </div>

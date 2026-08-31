@@ -167,7 +167,7 @@ export default function AboutPage() {
           <div className="about-intro grid grid-cols-1 lg:grid-cols-2 gap-16 items-end">
             <div className="max-w-xl">
               <p className="text-neutral-300 text-base md:text-lg leading-relaxed mb-6">
-                JHC Consulting is an independent advisory practice serving chairs, chief executives, and board committees on questions where the internal view requires serious external challenge and the record of that challenge must be written down. Written argument produces sharper thinking than conversation, and the person who signs a memorandum should be the person who read the file.
+                Westhafen Consulting is an independent advisory practice serving chairs, chief executives, and board committees on questions where the internal view requires serious external challenge and the record of that challenge must be written down. Written argument produces sharper thinking than conversation, and the person who signs a memorandum should be the person who read the file.
               </p>
               <p className="text-neutral-400 text-sm leading-relaxed">
                 The practice holds offices in Berlin and New York. The firm is kept small by design. The number of engagements accepted in any quarter is set by the author&apos;s capacity to read, to write, and to carry the work through to signature.
@@ -185,7 +185,7 @@ export default function AboutPage() {
                 sizes="(max-width: 768px) 100vw, 600px"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0a0a0a]/30" />
+              <div className="absolute inset-0 bg-[#0b1220]/30" />
               <div className="absolute top-4 left-4 w-10 h-10 border-t border-l border-white/15" />
               <div className="absolute bottom-4 right-4 w-10 h-10 border-b border-r border-white/15" />
             </div>
@@ -202,7 +202,7 @@ export default function AboutPage() {
             </div>
             <div className="lg:col-span-2">
               <p className="text-neutral-300 text-base md:text-lg leading-relaxed mb-6">
-                The practice draws on experience across investment banking, private equity due diligence, and board-level advisory work for European and North American institutions. Prior to establishing JHC, the principal held roles involving strategic analysis at the holding-company level, portfolio oversight, and transaction execution for organisations managing assets across multiple jurisdictions.
+                The practice draws on experience across investment banking, private equity due diligence, and board-level advisory work for European and North American institutions. Prior to establishing Westhafen, the principal held roles involving strategic analysis at the holding-company level, portfolio oversight, and transaction execution for organisations managing assets across multiple jurisdictions.
               </p>
               <p className="text-neutral-400 text-base leading-relaxed mb-6">
                 Engagements have run across industrial manufacturing, financial services, infrastructure, healthcare, and professional services. The common thread is work that requires translation between the working affairs of a house and the decisions a board must take on them, where the conclusions will be read by directors, shareholders, and regulators, and will have to hold up in each reading.
@@ -240,7 +240,7 @@ export default function AboutPage() {
                   Paul leads strategy and client engagement across the firm's advisory practice. He brings experience in institutional asset management, corporate strategy, and board-level advisory to questions of leadership, governance, and organizational change.
                 </p>
                 <p className="text-neutral-400 text-base leading-relaxed mb-6">
-                  Prior to joining JHC, Paul held positions in corporate finance, equity research, and institutional asset management. He has advised on transactions and strategic decisions across financial services, industrials, and infrastructure sectors in North America and Europe. His background includes portfolio management, investment evaluation, and board governance work for institutional investors and family offices.
+                  Prior to joining Westhafen, Paul held positions in corporate finance, equity research, and institutional asset management. He has advised on transactions and strategic decisions across financial services, industrials, and infrastructure sectors in North America and Europe. His background includes portfolio management, investment evaluation, and board governance work for institutional investors and family offices.
                 </p>
               </div>
               <div className="mb-12 border-t border-white/[0.06] pt-12">
@@ -251,7 +251,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <p className="text-neutral-300 text-base leading-relaxed mb-6">
-                  Liene founded JHC Consulting to establish a practice on the conviction that strategy deserves argument rather than consensus-building, and that what writing reveals, conversation tends to obscure. Her work centres on questions where the internal case is incomplete or the available information has produced a false sense of certainty.
+                  Liene founded Westhafen Consulting to establish a practice on the conviction that strategy deserves argument rather than consensus-building, and that what writing reveals, conversation tends to obscure. Her work centres on questions where the internal case is incomplete or the available information has produced a false sense of certainty.
                 </p>
                 <p className="text-neutral-400 text-base leading-relaxed mb-6">
                   Prior to founding the firm, Liene held positions in corporate strategy, investment banking, and private equity advisory. She has led engagements across infrastructure, financial services, industrials, and healthcare in Europe and North America. Her background includes portfolio analysis, transaction evaluation, and governance work for institutional investors and corporate holding companies.
@@ -282,7 +282,7 @@ export default function AboutPage() {
                   Claire focuses on governance design and succession questions for closely held businesses and family-controlled institutions. She is engaged where the principal needs a written record of the decision process as much as the decision itself.
                 </p>
                 <p className="text-neutral-400 text-base leading-relaxed mb-6">
-                  Prior to joining JHC, Claire held positions in institutional law, private client advisory, and board secretariat work for listed companies in the United Kingdom and Canada. Her background includes board effectiveness reviews, conflict-of-interest frameworks, and the preparation of board-level papers for investment committees and audit functions.
+                  Prior to joining Westhafen, Claire held positions in institutional law, private client advisory, and board secretariat work for listed companies in the United Kingdom and Canada. Her background includes board effectiveness reviews, conflict-of-interest frameworks, and the preparation of board-level papers for investment committees and audit functions.
                 </p>
               </div>
               <div className="mb-12 border-t border-white/[0.06] pt-12">
@@ -333,7 +333,7 @@ export default function AboutPage() {
               {approach.map((item, index) => (
                 <div
                   key={index}
-                  className="approach-item bg-[#0a0a0a] p-8 md:p-10 group hover:bg-white/[0.02] transition-colors duration-500"
+                  className="approach-item bg-[#0b1220] p-8 md:p-10 group hover:bg-white/[0.02] transition-colors duration-500"
                 >
                   <span className="text-xs text-neutral-600 tracking-widest font-mono mb-4 block">{item.number}</span>
                   <h3 className="font-serif text-2xl mb-4">{item.title}</h3>
@@ -360,8 +360,8 @@ export default function AboutPage() {
               sizes="(max-width: 768px) 100vw, 1200px"
               loading="lazy"
             />
-            <div className="absolute inset-0 bg-[#0a0a0a]/40" />
-            <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
+            <div className="absolute inset-0 bg-[#0b1220]/40" />
+            <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0b1220] to-transparent" />
           </div>
         </section>
 
@@ -384,7 +384,7 @@ export default function AboutPage() {
               return (
                 <div
                   key={value.number}
-                  className="value-card bg-[#0a0a0a] p-8 md:p-12 group hover:bg-white/[0.015] transition-colors duration-500"
+                  className="value-card bg-[#0b1220] p-8 md:p-12 group hover:bg-white/[0.015] transition-colors duration-500"
                 >
                   <div className="flex items-start justify-between mb-6">
                     <span className="text-xs text-neutral-600 tracking-widest font-mono">
@@ -414,7 +414,7 @@ export default function AboutPage() {
           </p>
           <TransitionLink href="/contact">
             <motion.button
-              className="inline-flex items-center gap-3 bg-[#4a9eb3] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#3d8a9d] transition-colors"
+              className="inline-flex items-center gap-3 bg-[#9a2f43] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#7f2536] transition-colors"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >

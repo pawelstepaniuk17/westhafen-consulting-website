@@ -35,7 +35,7 @@ const renderMaterial = new THREE.ShaderMaterial({
       // Size attenuation
       gl_PointSize = (2.5 + aRandom * 1.5) * (1.0 / -mvPosition.z);
 
-      // Subtle color variation based on position - JHC brand colors (navy to teal)
+      // Subtle color variation based on position - Westhafen brand colors (navy to teal)
       float colorMix = (pos.y + 2.0) / 4.0;
       vColor = mix(vec3(0.1, 0.21, 0.36), vec3(0.29, 0.62, 0.7), colorMix);
 

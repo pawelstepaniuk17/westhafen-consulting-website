@@ -43,10 +43,10 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">1. General Information Only</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              The information provided on this website (jhcconsulting.net) is for general informational purposes only. While we take care to present accurate information, nothing on this website constitutes professional advice, whether management, legal, financial, tax, or otherwise.
+              The information provided on this website (westhafenconsulting.net) is for general informational purposes only. While we take care to present accurate information, nothing on this website constitutes professional advice, whether management, legal, financial, tax, or otherwise.
             </p>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              The content on this website is not intended to create, and does not create, an advisory relationship between JHC Consulting and any reader or visitor. Viewing this website or contacting us through it does not establish a client relationship.
+              The content on this website is not intended to create, and does not create, an advisory relationship between Westhafen Consulting and any reader or visitor. Viewing this website or contacting us through it does not establish a client relationship.
             </p>
             <p className="text-neutral-400 leading-relaxed">
               If you require advice regarding a specific business situation, you should engage appropriate qualified advisors who can assess your particular circumstances.
@@ -79,7 +79,7 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">4. Limitation of Liability</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              To the fullest extent permitted by applicable law, JHC Consulting, its directors, officers, employees, agents, and affiliates shall not be liable for:
+              To the fullest extent permitted by applicable law, Westhafen Consulting, its directors, officers, employees, agents, and affiliates shall not be liable for:
             </p>
             <ul className="list-disc list-inside text-neutral-400 space-y-2 mb-4 ml-4">
               <li>Any direct, indirect, incidental, special, consequential, punitive, or exemplary damages</li>
@@ -119,7 +119,7 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">7. No Professional Relationship</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              The information on this website does not create a professional-client relationship between you and JHC Consulting. The existence of a professional relationship requires:
+              The information on this website does not create a professional-client relationship between you and Westhafen Consulting. The existence of a professional relationship requires:
             </p>
             <ul className="list-disc list-inside text-neutral-400 space-y-2 mb-4 ml-4">
               <li>A written engagement agreement signed by authorized representatives of both parties</li>
@@ -165,11 +165,11 @@ export default function DisclaimerPage() {
               For questions about this Disclaimer, please contact us:
             </p>
             <div className="text-neutral-400 space-y-1">
-              <p><strong>JHC Consulting</strong></p>
+              <p><strong>Westhafen Consulting</strong></p>
               <p>347 Fifth Avenue</p>
               <p>New York, NY 10016</p>
               <p>United States</p>
-              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#4a9eb3] hover:underline">support@jhcconsulting.net</a></p>
+              <p className="mt-4">Email: <a href="mailto:support@westhafenconsulting.net" className="text-[#d9556e] hover:underline">support@westhafenconsulting.net</a></p>
             </div>
           </section>
 
@@ -177,10 +177,10 @@ export default function DisclaimerPage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related policies</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/privacy-policy" className="text-[#4a9eb3] hover:underline text-sm">Privacy Policy</TransitionLink>
-              <TransitionLink href="/terms-of-use" className="text-[#4a9eb3] hover:underline text-sm">Terms of Use</TransitionLink>
-              <TransitionLink href="/cookie-policy" className="text-[#4a9eb3] hover:underline text-sm">Cookie Policy</TransitionLink>
-              <TransitionLink href="/security-confidentiality" className="text-[#4a9eb3] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
+              <TransitionLink href="/privacy-policy" className="text-[#d9556e] hover:underline text-sm">Privacy Policy</TransitionLink>
+              <TransitionLink href="/terms-of-use" className="text-[#d9556e] hover:underline text-sm">Terms of Use</TransitionLink>
+              <TransitionLink href="/cookie-policy" className="text-[#d9556e] hover:underline text-sm">Cookie Policy</TransitionLink>
+              <TransitionLink href="/security-confidentiality" className="text-[#d9556e] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
             </div>
           </section>
         </div>

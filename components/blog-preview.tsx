@@ -60,7 +60,7 @@ export function BlogPreview() {
   )
 
   return (
-    <section ref={container} className="py-24 md:py-40 bg-[#060606]">
+    <section ref={container} className="pt-8 md:pt-12 pb-20 md:pb-28 bg-[#0e1728]">
       <div className="container mx-auto px-6 max-w-6xl">
         <SectionDivider className="mb-20" />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 mb-16">
@@ -86,7 +86,7 @@ export function BlogPreview() {
             <TransitionLink
               key={index}
               href={post.slug}
-              className="blog-post bg-[#060606] p-8 md:p-10 flex flex-col group hover:bg-white/[0.02] transition-colors duration-500"
+              className="blog-post bg-[#0e1728] p-8 md:p-10 flex flex-col group hover:bg-white/[0.02] transition-colors duration-500"
             >
               <div className="flex items-center justify-between mb-8">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-600 border border-white/[0.06] px-3 py-1">

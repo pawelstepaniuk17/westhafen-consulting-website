@@ -65,8 +65,8 @@ export function GlowScene() {
   const uniforms = useMemo(
     () => ({
       uTime: { value: 0 },
-      uColor1: { value: new THREE.Color("#1a365d") }, // JHC navy
-      uColor2: { value: new THREE.Color("#4a9eb3") }, // JHC teal
+      uColor1: { value: new THREE.Color("#1a365d") }, // Westhafen navy
+      uColor2: { value: new THREE.Color("#9a2f43") }, // Westhafen teal
     }),
     [],
   )

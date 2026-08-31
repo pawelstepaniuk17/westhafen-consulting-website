@@ -163,13 +163,13 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full py-4 bg-[#4a9eb3] text-white font-medium hover:bg-[#3d8a9d] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full py-4 bg-[#9a2f43] text-white font-medium hover:bg-[#7f2536] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
       >
         {status === "loading" ? "Sending..." : "Send Inquiry"}
       </button>
 
       <p className="text-xs text-neutral-500 leading-relaxed">
-        By submitting this form, you agree that we may use the information provided to respond to your inquiry. See our <a href="/privacy-policy" className="text-[#4a9eb3] hover:underline">Privacy Policy</a> for details on how we handle your information.
+        By submitting this form, you agree that we may use the information provided to respond to your inquiry. See our <a href="/privacy-policy" className="text-[#d9556e] hover:underline">Privacy Policy</a> for details on how we handle your information.
       </p>
     </form>
   );

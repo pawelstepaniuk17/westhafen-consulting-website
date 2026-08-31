@@ -66,7 +66,8 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        serif: ['var(--font-eb-garamond)', 'ui-serif', 'Georgia', 'serif'],
+        serif: ['var(--font-newsreader)', 'ui-serif', 'Georgia', 'serif'],
+        mono: ['var(--font-jetbrains-mono)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
       },
       borderRadius: {
         lg: 'var(--radius)',

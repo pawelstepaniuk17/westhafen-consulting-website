@@ -142,7 +142,7 @@ export default function MandatesPage() {
                     <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-4">Typical scope areas</p>
                     {mandate.bullets.map((bullet, bidx) => (
                       <div key={bidx} className="flex gap-4 items-start">
-                        <span className="text-[#4a9eb3] mt-1.5">
+                        <span className="text-[#d9556e] mt-1.5">
                           <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor">
                             <rect width="6" height="6" />
                           </svg>
@@ -205,7 +205,7 @@ export default function MandatesPage() {
           </p>
           <TransitionLink href="/contact">
             <motion.button
-              className="inline-flex items-center gap-3 bg-[#4a9eb3] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#3d8a9d] transition-colors"
+              className="inline-flex items-center gap-3 bg-[#9a2f43] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#7f2536] transition-colors"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >

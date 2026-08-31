@@ -6,43 +6,48 @@
   .text-balance {
     text-wrap: balance;
   }
+  .text-pretty {
+    text-wrap: pretty;
+  }
 }
 
 @layer base {
   :root {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 0 0% 83.1%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    /* Deep City Navy base + burgundy accent — premier institutional palette */
+    --background: 222 47% 7%;
+    --foreground: 40 24% 94%;
+    --card: 221 40% 11%;
+    --card-foreground: 40 24% 94%;
+    --popover: 221 44% 9%;
+    --popover-foreground: 40 24% 94%;
+    /* Lightened red accent — legible for small text on the dark navy base */
+    --primary: 349 62% 55%;
+    --primary-foreground: 349 40% 12%;
+    --secondary: 221 32% 15%;
+    --secondary-foreground: 40 24% 94%;
+    --muted: 221 30% 15%;
+    --muted-foreground: 217 16% 66%;
+    --accent: 349 62% 55%;
+    --accent-foreground: 349 40% 12%;
+    --destructive: 0 62.8% 40%;
+    --destructive-foreground: 40 30% 96%;
+    --border: 217 28% 18%;
+    --input: 217 28% 18%;
+    --ring: 349 62% 55%;
+    --chart-1: 349 62% 55%;
+    --chart-2: 200 40% 55%;
+    --chart-3: 30 45% 50%;
+    --chart-4: 210 30% 60%;
+    --chart-5: 349 50% 66%;
     --radius: 0.5rem;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 222 44% 9%;
+    --sidebar-foreground: 40 20% 90%;
+    --sidebar-primary: 349 53% 39%;
+    --sidebar-primary-foreground: 40 30% 96%;
+    --sidebar-accent: 221 32% 15%;
+    --sidebar-accent-foreground: 40 24% 94%;
+    --sidebar-border: 217 28% 18%;
+    --sidebar-ring: 349 53% 39%;
   }
 }
 
@@ -51,11 +56,19 @@
     @apply border-border;
   }
   body {
-    background-color: #0a0a0a;
-    color: white;
+    background-color: #0b1220;
+    color: hsl(var(--foreground));
     font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
   html {
-    background-color: #0a0a0a;
+    background-color: #0b1220;
+  }
+  /* Fraunces display headings — heavier optical weight, tighter setting */
+  .font-serif {
+    font-optical-sizing: auto;
+    font-weight: 600;
+    letter-spacing: -0.015em;
   }
 }
