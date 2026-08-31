@@ -79,7 +79,7 @@ export const organizationJsonLd = {
   "description": "A small private advisory practice. Counsel in writing, signed by its author, for chairs, chief executives, and board committees.",
   "url": "https://westhafenconsulting.net",
   "logo": "https://westhafenconsulting.net/images/westhafen-logo.png",
-  "email": "support@westhafenconsulting.net",
+  "email": "support@westhafen-consulting.org",
   "telephone": ["+49 176 160 21344", "+1 626 713 1308"],
   "foundingDate": "2024",
   "priceRange": "$$$$",
@@ -89,7 +89,7 @@ export const organizationJsonLd = {
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "Customer Service",
-    "email": "support@westhafenconsulting.net",
+    "email": "support@westhafen-consulting.org",
     "telephone": ["+49 176 160 21344", "+1 626 713 1308"]
   },
   "address": [

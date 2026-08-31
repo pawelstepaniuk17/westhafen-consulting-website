@@ -160,7 +160,7 @@ export default function AccessibilityPage() {
               We welcome your feedback on the accessibility of our website. If you encounter accessibility barriers or have suggestions for improvement, please contact us:
             </p>
             <div className="text-neutral-400 space-y-1 mb-6">
-              <p><strong>Email:</strong> <a href="mailto:support@westhafenconsulting.net" className="text-[#d9556e] hover:underline">support@westhafenconsulting.net</a></p>
+              <p><strong>Email:</strong> <a href="mailto:support@westhafen-consulting.org" className="text-[#d9556e] hover:underline">support@westhafen-consulting.org</a></p>
               <p><strong>Phone:</strong> +49 176 160 21344</p>
             </div>
             <p className="text-neutral-400 leading-relaxed mb-4">
