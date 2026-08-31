@@ -23,7 +23,7 @@ export default function ThankYouPage() {
         </p>
         <Link 
           href="/" 
-          className="inline-block px-8 py-3 bg-[#4a9eb3] text-white font-medium rounded-full hover:bg-[#3d8a9d] transition-colors"
+          className="inline-block px-8 py-3 bg-[#c9a35e] text-white font-medium rounded-full hover:bg-[#b58a44] transition-colors"
         >
           Return to home
         </Link>

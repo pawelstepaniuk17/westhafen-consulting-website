@@ -185,7 +185,7 @@ export default function AboutPage() {
                 sizes="(max-width: 768px) 100vw, 600px"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-[#0a0a0a]/30" />
+              <div className="absolute inset-0 bg-[#0b1220]/30" />
               <div className="absolute top-4 left-4 w-10 h-10 border-t border-l border-white/15" />
               <div className="absolute bottom-4 right-4 w-10 h-10 border-b border-r border-white/15" />
             </div>
@@ -333,7 +333,7 @@ export default function AboutPage() {
               {approach.map((item, index) => (
                 <div
                   key={index}
-                  className="approach-item bg-[#0a0a0a] p-8 md:p-10 group hover:bg-white/[0.02] transition-colors duration-500"
+                  className="approach-item bg-[#0b1220] p-8 md:p-10 group hover:bg-white/[0.02] transition-colors duration-500"
                 >
                   <span className="text-xs text-neutral-600 tracking-widest font-mono mb-4 block">{item.number}</span>
                   <h3 className="font-serif text-2xl mb-4">{item.title}</h3>
@@ -360,8 +360,8 @@ export default function AboutPage() {
               sizes="(max-width: 768px) 100vw, 1200px"
               loading="lazy"
             />
-            <div className="absolute inset-0 bg-[#0a0a0a]/40" />
-            <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
+            <div className="absolute inset-0 bg-[#0b1220]/40" />
+            <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0b1220] to-transparent" />
           </div>
         </section>
 
@@ -384,7 +384,7 @@ export default function AboutPage() {
               return (
                 <div
                   key={value.number}
-                  className="value-card bg-[#0a0a0a] p-8 md:p-12 group hover:bg-white/[0.015] transition-colors duration-500"
+                  className="value-card bg-[#0b1220] p-8 md:p-12 group hover:bg-white/[0.015] transition-colors duration-500"
                 >
                   <div className="flex items-start justify-between mb-6">
                     <span className="text-xs text-neutral-600 tracking-widest font-mono">
@@ -414,7 +414,7 @@ export default function AboutPage() {
           </p>
           <TransitionLink href="/contact">
             <motion.button
-              className="inline-flex items-center gap-3 bg-[#4a9eb3] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#3d8a9d] transition-colors"
+              className="inline-flex items-center gap-3 bg-[#c9a35e] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#b58a44] transition-colors"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >

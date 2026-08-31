@@ -66,7 +66,7 @@ export function GlowScene() {
     () => ({
       uTime: { value: 0 },
       uColor1: { value: new THREE.Color("#1a365d") }, // JHC navy
-      uColor2: { value: new THREE.Color("#4a9eb3") }, // JHC teal
+      uColor2: { value: new THREE.Color("#c9a35e") }, // JHC teal
     }),
     [],
   )

@@ -130,13 +130,13 @@ export default async function NotesArticlePage({ params }: { params: Promise<{ s
   const nextSlug = currentIndex < articleSlugs.length - 1 ? articleSlugs[currentIndex + 1] : null
 
   return (
-    <div className="min-h-screen pt-32 md:pt-40 pb-24 bg-[#0a0a0a] text-white">
+    <div className="min-h-screen pt-32 md:pt-40 pb-24 bg-[#0b1220] text-white">
       <div className="container mx-auto px-6 max-w-3xl">
         <header className="mb-16">
           <div className="flex items-center gap-4 mb-6">
             <p className="text-xs uppercase tracking-widest text-neutral-500">{article.date}</p>
             <span className="text-neutral-600">|</span>
-            <p className="text-xs text-[#4a9eb3]">{article.category}</p>
+            <p className="text-xs text-[#c9a35e]">{article.category}</p>
           </div>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight mb-8">
             {article.title}
@@ -158,7 +158,7 @@ export default async function NotesArticlePage({ params }: { params: Promise<{ s
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
             <Link 
               href="/notes" 
-              className="inline-flex items-center gap-2 text-[#4a9eb3] hover:text-[#3d8a9d] transition-colors text-sm"
+              className="inline-flex items-center gap-2 text-[#c9a35e] hover:text-[#b58a44] transition-colors text-sm"
             >
               <ArrowLeft size={16} />
               All notes
@@ -175,7 +175,7 @@ export default async function NotesArticlePage({ params }: { params: Promise<{ s
               {nextSlug && (
                 <Link 
                   href={`/notes/${nextSlug}`}
-                  className="inline-flex items-center gap-2 text-[#4a9eb3] hover:text-[#3d8a9d] transition-colors text-sm"
+                  className="inline-flex items-center gap-2 text-[#c9a35e] hover:text-[#b58a44] transition-colors text-sm"
                 >
                   Next <ArrowRight size={16} />
                 </Link>
@@ -191,7 +191,7 @@ export default async function NotesArticlePage({ params }: { params: Promise<{ s
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-[#4a9eb3] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#3d8a9d] transition-colors"
+            className="inline-block bg-[#c9a35e] text-white font-medium py-3 px-8 rounded-full text-sm tracking-wide hover:bg-[#b58a44] transition-colors"
           >
             Start a conversation
           </Link>

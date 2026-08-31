@@ -196,7 +196,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="font-serif text-2xl mb-4">10. Cookies and Similar Technologies</h2>
             <p className="text-neutral-400 leading-relaxed mb-4">
-              Our website uses cookies and similar technologies to collect information about your browsing activities. For detailed information about the cookies we use and how to manage your preferences, please see our <TransitionLink href="/cookie-policy" className="text-[#4a9eb3] hover:underline">Cookie Policy</TransitionLink>.
+              Our website uses cookies and similar technologies to collect information about your browsing activities. For detailed information about the cookies we use and how to manage your preferences, please see our <TransitionLink href="/cookie-policy" className="text-[#c9a35e] hover:underline">Cookie Policy</TransitionLink>.
             </p>
           </section>
 
@@ -224,7 +224,7 @@ export default function PrivacyPolicyPage() {
               <p>347 Fifth Avenue</p>
               <p>New York, NY 10016</p>
               <p>United States</p>
-              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#4a9eb3] hover:underline">support@jhcconsulting.net</a></p>
+              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#c9a35e] hover:underline">support@jhcconsulting.net</a></p>
             </div>
           </section>
 
@@ -232,11 +232,11 @@ export default function PrivacyPolicyPage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related policies</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/terms-of-use" className="text-[#4a9eb3] hover:underline text-sm">Terms of Use</TransitionLink>
-              <TransitionLink href="/cookie-policy" className="text-[#4a9eb3] hover:underline text-sm">Cookie Policy</TransitionLink>
-              <TransitionLink href="/security-confidentiality" className="text-[#4a9eb3] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
-              <TransitionLink href="/disclaimer" className="text-[#4a9eb3] hover:underline text-sm">Disclaimer</TransitionLink>
-              <TransitionLink href="/accessibility" className="text-[#4a9eb3] hover:underline text-sm">Accessibility</TransitionLink>
+              <TransitionLink href="/terms-of-use" className="text-[#c9a35e] hover:underline text-sm">Terms of Use</TransitionLink>
+              <TransitionLink href="/cookie-policy" className="text-[#c9a35e] hover:underline text-sm">Cookie Policy</TransitionLink>
+              <TransitionLink href="/security-confidentiality" className="text-[#c9a35e] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
+              <TransitionLink href="/disclaimer" className="text-[#c9a35e] hover:underline text-sm">Disclaimer</TransitionLink>
+              <TransitionLink href="/accessibility" className="text-[#c9a35e] hover:underline text-sm">Accessibility</TransitionLink>
             </div>
           </section>
         </div>

@@ -36,8 +36,8 @@ export function ImageBreak() {
             sizes="(max-width: 768px) 100vw, 1400px"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-[#0a0a0a]/40" />
-          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
+          <div className="absolute inset-0 bg-[#0b1220]/40" />
+          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0b1220] to-transparent" />
         </div>
       </div>
     </section>

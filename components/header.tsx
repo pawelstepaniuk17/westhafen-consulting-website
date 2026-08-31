@@ -1,12 +1,19 @@
 "use client"
 
-import Image from "next/image"
 import { TransitionLink } from "./transition-link"
-import { motion } from "framer-motion"
+import { motion, AnimatePresence } from "framer-motion"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { useRef, useState } from "react"
 import { Menu, X } from "lucide-react"
+
+const navItems = [
+  { href: "/about", label: "The Firm" },
+  { href: "/mandates", label: "Services" },
+  { href: "/method", label: "Method" },
+  { href: "/notes", label: "Notes" },
+  { href: "/contact", label: "Contact" },
+]
 
 export function Header() {
   const headerRef = useRef(null)
@@ -23,80 +30,76 @@ export function Header() {
   }, [])
 
   return (
-    <motion.header ref={headerRef} className="fixed top-0 left-0 right-0 z-50 p-4">
-      <div className="container mx-auto flex justify-between items-center bg-white/95 backdrop-blur-md px-5 py-1 border border-[#1a365d]/10 rounded-full shadow-sm">
-        <TransitionLink href="/">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/images/jhc-logo.png"
-            alt="JHC Consulting"
-            style={{ height: "40px", width: "auto", display: "block" }}
-          />
+    <header
+      ref={headerRef}
+      className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-md"
+    >
+      <div className="container mx-auto flex h-16 items-center justify-between px-6">
+        <TransitionLink href="/" className="flex items-center" onClick={() => setMobileOpen(false)}>
+          <span className="inline-flex items-center rounded-md bg-foreground px-2.5 py-1.5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/jhc-logo.png" alt="JHC Consulting" className="h-6 w-auto" />
+          </span>
         </TransitionLink>
-        <nav className="hidden md:flex items-center gap-8 text-[#1a365d] text-sm tracking-wide uppercase">
-          <TransitionLink href="/about" className="hover:text-[#4a9eb3] transition-colors">
-            The Firm
-          </TransitionLink>
-          <TransitionLink href="/mandates" className="hover:text-[#4a9eb3] transition-colors">
-            Services
-          </TransitionLink>
-          <TransitionLink href="/method" className="hover:text-[#4a9eb3] transition-colors">
-            Method
-          </TransitionLink>
-          <TransitionLink href="/notes" className="hover:text-[#4a9eb3] transition-colors">
-            Notes
-          </TransitionLink>
-          <TransitionLink href="/contact" className="hover:text-[#4a9eb3] transition-colors">
-            Contact
-          </TransitionLink>
+
+        <nav className="hidden items-center gap-9 text-xs uppercase tracking-[0.15em] text-muted-foreground md:flex">
+          {navItems.map((item) => (
+            <TransitionLink key={item.href} href={item.href} className="transition-colors hover:text-foreground">
+              {item.label}
+            </TransitionLink>
+          ))}
         </nav>
+
         <TransitionLink href="/contact" className="hidden md:block">
-          <motion.button
-            className="bg-[#4a9eb3] text-white font-medium py-2 px-6 rounded-full text-sm tracking-wide hover:bg-[#3d8a9d] transition-colors"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
+          <button className="rounded-md bg-primary px-6 py-2.5 text-sm font-medium tracking-wide text-primary-foreground transition-colors hover:bg-primary/90">
             Begin a Conversation
-          </motion.button>
+          </button>
         </TransitionLink>
+
         <button
-          className="md:hidden text-[#1a365d]"
+          className="text-foreground md:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
+          aria-expanded={mobileOpen}
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
-      {mobileOpen && (
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="md:hidden mt-2 bg-white/95 backdrop-blur-md border border-[#1a365d]/10 rounded-2xl p-6 shadow-sm"
-        >
-          <nav className="flex flex-col gap-4 text-[#1a365d] text-sm tracking-wide uppercase">
-            <TransitionLink href="/about" onClick={() => setMobileOpen(false)} className="hover:text-[#4a9eb3] transition-colors py-2">
-              The Firm
-            </TransitionLink>
-            <TransitionLink href="/mandates" onClick={() => setMobileOpen(false)} className="hover:text-[#4a9eb3] transition-colors py-2">
-              Services
-            </TransitionLink>
-            <TransitionLink href="/method" onClick={() => setMobileOpen(false)} className="hover:text-[#4a9eb3] transition-colors py-2">
-              Method
-            </TransitionLink>
-            <TransitionLink href="/notes" onClick={() => setMobileOpen(false)} className="hover:text-[#4a9eb3] transition-colors py-2">
-              Notes
-            </TransitionLink>
-            <TransitionLink href="/contact" onClick={() => setMobileOpen(false)} className="hover:text-[#4a9eb3] transition-colors py-2">
-              Contact
-            </TransitionLink>
-            <TransitionLink href="/contact" onClick={() => setMobileOpen(false)}>
-              <button className="bg-[#4a9eb3] text-white font-medium py-2 px-6 rounded-full text-sm tracking-wide w-full mt-2 hover:bg-[#3d8a9d] transition-colors">
-                Begin a Conversation
-              </button>
-            </TransitionLink>
-          </nav>
-        </motion.div>
-      )}
-    </motion.header>
+
+      <AnimatePresence>
+        {mobileOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-x-0 top-16 z-40 h-[calc(100dvh-64px)] bg-background md:hidden"
+          >
+            <nav className="flex flex-col divide-y divide-border border-t border-border">
+              {navItems.map((item, i) => (
+                <TransitionLink
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="flex items-center justify-between px-6 py-5 font-serif text-2xl text-foreground transition-colors hover:text-primary"
+                >
+                  <span>{item.label}</span>
+                  <span className="font-mono text-xs text-muted-foreground">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                </TransitionLink>
+              ))}
+            </nav>
+            <div className="px-6 py-8">
+              <TransitionLink href="/contact" onClick={() => setMobileOpen(false)}>
+                <button className="w-full rounded-md bg-primary px-6 py-4 text-sm font-medium tracking-wide text-primary-foreground transition-colors hover:bg-primary/90">
+                  Begin a Conversation
+                </button>
+              </TransitionLink>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </header>
   )
 }

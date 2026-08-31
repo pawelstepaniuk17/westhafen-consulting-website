@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, EB_Garamond } from "next/font/google"
+import { Inter, Newsreader, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
@@ -8,7 +8,13 @@ import { GsapProvider } from "@/components/gsap-provider"
 import { TransitionProvider } from "@/components/transition-provider"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
-const ebGaramond = EB_Garamond({ subsets: ["latin"], variable: "--font-eb-garamond" })
+const newsreader = Newsreader({
+  subsets: ["latin"],
+  variable: "--font-newsreader",
+  style: ["normal", "italic"],
+  weight: ["300", "400", "500", "600"],
+})
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" })
 
 export const metadata: Metadata = {
   title: "JHC Consulting",
@@ -142,7 +148,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${ebGaramond.variable}`}>
+    <html lang="en" className={`${inter.variable} ${newsreader.variable} ${jetbrainsMono.variable} bg-background`}>
       <head>
         <script
           type="application/ld+json"
@@ -153,7 +159,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
       </head>
-      <body className="bg-[#0a0a0a] text-white font-sans">
+      <body className="bg-background text-foreground font-sans antialiased">
         <GsapProvider>
           <TransitionProvider>
             <Header />

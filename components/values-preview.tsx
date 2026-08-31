@@ -68,7 +68,7 @@ export function ValuesPreview() {
   )
 
   return (
-    <section ref={container} className="py-24 md:py-40 bg-[#060606]">
+    <section ref={container} className="py-24 md:py-40 bg-[#0e1728]">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 mb-20">
           <div className="lg:col-span-2">
@@ -91,7 +91,7 @@ export function ValuesPreview() {
             return (
               <div
                 key={value.number}
-                className="value-item bg-[#060606] p-8 md:p-12 group hover:bg-white/[0.015] transition-colors duration-500"
+                className="value-item bg-[#0e1728] p-8 md:p-12 group hover:bg-white/[0.015] transition-colors duration-500"
               >
                 <div className="flex items-start justify-between mb-6">
                   <span className="text-xs text-neutral-600 tracking-widest font-mono">

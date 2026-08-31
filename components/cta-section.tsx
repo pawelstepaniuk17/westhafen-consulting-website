@@ -54,7 +54,7 @@ export function CtaSection() {
             </p>
             <TransitionLink href="/contact">
               <motion.button
-                className="inline-flex items-center gap-3 bg-[#4a9eb3] text-white font-medium py-3.5 px-8 rounded-full text-sm tracking-wide hover:bg-[#3d8a9d] transition-colors"
+                className="inline-flex items-center gap-3 bg-primary text-primary-foreground font-medium py-3.5 px-8 rounded-md text-sm tracking-wide hover:bg-primary/90 transition-colors"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
               >
@@ -70,7 +70,7 @@ export function CtaSection() {
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 600px"
             />
-            <div className="absolute inset-0 bg-[#0a0a0a]/20" />
+            <div className="absolute inset-0 bg-[#0b1220]/20" />
             {/* Geometric corner accent */}
             <div className="absolute top-4 right-4 w-12 h-12 border-t border-r border-white/20" />
             <div className="absolute bottom-4 left-4 w-12 h-12 border-b border-l border-white/20" />

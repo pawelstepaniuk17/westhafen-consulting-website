@@ -122,10 +122,10 @@ export default function NotesPage() {
                   <div className="flex flex-col md:flex-row md:items-start gap-4 md:gap-8">
                     <div className="md:w-40 flex-shrink-0">
                       <p className="text-xs uppercase tracking-widest text-neutral-500 mb-1">{article.date}</p>
-                      <p className="text-xs text-[#4a9eb3]">{article.category}</p>
+                      <p className="text-xs text-[#c9a35e]">{article.category}</p>
                     </div>
                     <div className="flex-1">
-                      <h2 className="font-serif text-2xl md:text-3xl mb-4 group-hover:text-[#4a9eb3] transition-colors">
+                      <h2 className="font-serif text-2xl md:text-3xl mb-4 group-hover:text-[#c9a35e] transition-colors">
                         {article.title}
                       </h2>
                       <p className="text-neutral-400 leading-relaxed">{article.excerpt}</p>

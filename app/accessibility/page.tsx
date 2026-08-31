@@ -160,7 +160,7 @@ export default function AccessibilityPage() {
               We welcome your feedback on the accessibility of our website. If you encounter accessibility barriers or have suggestions for improvement, please contact us:
             </p>
             <div className="text-neutral-400 space-y-1 mb-6">
-              <p><strong>Email:</strong> <a href="mailto:support@jhcconsulting.net" className="text-[#4a9eb3] hover:underline">support@jhcconsulting.net</a></p>
+              <p><strong>Email:</strong> <a href="mailto:support@jhcconsulting.net" className="text-[#c9a35e] hover:underline">support@jhcconsulting.net</a></p>
               <p><strong>Phone:</strong> +49 176 160 21344</p>
             </div>
             <p className="text-neutral-400 leading-relaxed mb-4">
@@ -202,10 +202,10 @@ export default function AccessibilityPage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related pages</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/contact" className="text-[#4a9eb3] hover:underline text-sm">Contact Us</TransitionLink>
-              <TransitionLink href="/privacy-policy" className="text-[#4a9eb3] hover:underline text-sm">Privacy Policy</TransitionLink>
-              <TransitionLink href="/terms-of-use" className="text-[#4a9eb3] hover:underline text-sm">Terms of Use</TransitionLink>
-              <TransitionLink href="/cookie-policy" className="text-[#4a9eb3] hover:underline text-sm">Cookie Policy</TransitionLink>
+              <TransitionLink href="/contact" className="text-[#c9a35e] hover:underline text-sm">Contact Us</TransitionLink>
+              <TransitionLink href="/privacy-policy" className="text-[#c9a35e] hover:underline text-sm">Privacy Policy</TransitionLink>
+              <TransitionLink href="/terms-of-use" className="text-[#c9a35e] hover:underline text-sm">Terms of Use</TransitionLink>
+              <TransitionLink href="/cookie-policy" className="text-[#c9a35e] hover:underline text-sm">Cookie Policy</TransitionLink>
             </div>
           </section>
         </div>

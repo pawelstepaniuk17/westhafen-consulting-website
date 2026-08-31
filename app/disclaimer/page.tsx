@@ -169,7 +169,7 @@ export default function DisclaimerPage() {
               <p>347 Fifth Avenue</p>
               <p>New York, NY 10016</p>
               <p>United States</p>
-              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#4a9eb3] hover:underline">support@jhcconsulting.net</a></p>
+              <p className="mt-4">Email: <a href="mailto:support@jhcconsulting.net" className="text-[#c9a35e] hover:underline">support@jhcconsulting.net</a></p>
             </div>
           </section>
 
@@ -177,10 +177,10 @@ export default function DisclaimerPage() {
           <section className="border-t border-white/[0.06] pt-12">
             <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-6">Related policies</p>
             <div className="flex flex-wrap gap-4">
-              <TransitionLink href="/privacy-policy" className="text-[#4a9eb3] hover:underline text-sm">Privacy Policy</TransitionLink>
-              <TransitionLink href="/terms-of-use" className="text-[#4a9eb3] hover:underline text-sm">Terms of Use</TransitionLink>
-              <TransitionLink href="/cookie-policy" className="text-[#4a9eb3] hover:underline text-sm">Cookie Policy</TransitionLink>
-              <TransitionLink href="/security-confidentiality" className="text-[#4a9eb3] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
+              <TransitionLink href="/privacy-policy" className="text-[#c9a35e] hover:underline text-sm">Privacy Policy</TransitionLink>
+              <TransitionLink href="/terms-of-use" className="text-[#c9a35e] hover:underline text-sm">Terms of Use</TransitionLink>
+              <TransitionLink href="/cookie-policy" className="text-[#c9a35e] hover:underline text-sm">Cookie Policy</TransitionLink>
+              <TransitionLink href="/security-confidentiality" className="text-[#c9a35e] hover:underline text-sm">Security &amp; Confidentiality</TransitionLink>
             </div>
           </section>
         </div>
