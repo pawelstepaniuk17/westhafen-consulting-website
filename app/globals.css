@@ -65,4 +65,10 @@
   html {
     background-color: #0b1220;
   }
+  /* Fraunces display headings — heavier optical weight, tighter setting */
+  .font-serif {
+    font-optical-sizing: auto;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+  }
 }

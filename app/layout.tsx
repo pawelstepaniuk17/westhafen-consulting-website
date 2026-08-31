@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Newsreader, JetBrains_Mono } from "next/font/google"
+import { Inter, Fraunces, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
@@ -8,11 +8,11 @@ import { GsapProvider } from "@/components/gsap-provider"
 import { TransitionProvider } from "@/components/transition-provider"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
-const newsreader = Newsreader({
+const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-newsreader",
   style: ["normal", "italic"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["400", "500", "600", "700", "900"],
 })
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono" })
 
@@ -148,7 +148,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${newsreader.variable} ${jetbrainsMono.variable} bg-background`}>
+    <html lang="en" className={`${inter.variable} ${fraunces.variable} ${jetbrainsMono.variable} bg-background`}>
       <head>
         <script
           type="application/ld+json"

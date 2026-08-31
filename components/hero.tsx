@@ -78,7 +78,7 @@ export function Hero() {
         <p className="hero-eyebrow mb-6 font-mono text-[11px] uppercase tracking-[0.35em] text-primary">
           Private Advisory &middot; Berlin &amp; New York
         </p>
-        <h1 className="hero-title max-w-4xl font-serif font-light text-[52px] leading-[1.02] tracking-[-0.02em] text-balance sm:text-7xl md:text-8xl lg:text-[6.5rem]">
+        <h1 className="hero-title max-w-4xl font-serif font-semibold text-[52px] leading-[1.0] tracking-[-0.025em] text-balance sm:text-7xl md:text-8xl lg:text-[6.5rem]">
           {splitTitle}
         </h1>
         <div className="hero-line mt-10 mb-8 h-px w-16 origin-left bg-primary/60" />
