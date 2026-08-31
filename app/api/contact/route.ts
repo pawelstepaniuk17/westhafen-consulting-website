@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
     // Domain westhafenconsulting.net is verified in Resend.
     // Send from a verified domain email address.
     const senderEmail = "noreply@westhafenconsulting.net"
-    const recipient = process.env.RESEND_TO_EMAIL || "support@westhafenconsulting.net"
+    const recipient = process.env.RESEND_TO_EMAIL || "support@westhafen-consulting.org"
 
     console.log("[v0] Contact form submission received")
     console.log("[v0] Sender:", senderEmail)

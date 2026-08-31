@@ -64,8 +64,8 @@ export default function ContactPage() {
                 <Mail size={20} className="text-[#d9556e] mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-1">Email</p>
-                  <a href="mailto:support@westhafenconsulting.net" className="text-neutral-400 hover:text-white transition-colors">
-                    support@westhafenconsulting.net
+                  <a href="mailto:support@westhafen-consulting.org" className="text-neutral-400 hover:text-white transition-colors">
+                    support@westhafen-consulting.org
                   </a>
                 </div>
               </div>

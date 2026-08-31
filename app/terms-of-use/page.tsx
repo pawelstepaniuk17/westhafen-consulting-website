@@ -196,7 +196,7 @@ export default function TermsOfUsePage() {
               <p>347 Fifth Avenue</p>
               <p>New York, NY 10016</p>
               <p>United States</p>
-              <p className="mt-4">Email: <a href="mailto:support@westhafenconsulting.net" className="text-[#d9556e] hover:underline">support@westhafenconsulting.net</a></p>
+              <p className="mt-4">Email: <a href="mailto:support@westhafen-consulting.org" className="text-[#d9556e] hover:underline">support@westhafen-consulting.org</a></p>
             </div>
           </section>
 

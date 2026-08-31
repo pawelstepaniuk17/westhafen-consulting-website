@@ -41,8 +41,8 @@ export function Footer() {
             <div className="space-y-4 text-neutral-300 text-sm leading-relaxed">
               <div>
                 <p className="text-neutral-400">
-                  <a href="mailto:support@westhafenconsulting.net" className="hover:text-white transition-colors">
-                    support@westhafenconsulting.net
+                  <a href="mailto:support@westhafen-consulting.org" className="hover:text-white transition-colors">
+                    support@westhafen-consulting.org
                   </a>
                 </p>
               </div>
