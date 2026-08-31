@@ -39,7 +39,7 @@ export function CtaSection() {
   )
 
   return (
-    <section ref={container} className="py-24 md:py-40 px-6">
+    <section ref={container} className="py-20 md:py-28 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="cta-content">

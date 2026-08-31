@@ -68,7 +68,7 @@ export function ValuesPreview() {
   )
 
   return (
-    <section ref={container} className="py-24 md:py-40 bg-[#0e1728]">
+    <section ref={container} className="pt-20 md:pt-28 pb-12 md:pb-16 bg-[#0e1728]">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 mb-20">
           <div className="lg:col-span-2">

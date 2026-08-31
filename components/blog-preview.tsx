@@ -60,7 +60,7 @@ export function BlogPreview() {
   )
 
   return (
-    <section ref={container} className="py-24 md:py-40 bg-[#0e1728]">
+    <section ref={container} className="pt-8 md:pt-12 pb-20 md:pb-28 bg-[#0e1728]">
       <div className="container mx-auto px-6 max-w-6xl">
         <SectionDivider className="mb-20" />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 mb-16">

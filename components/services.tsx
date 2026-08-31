@@ -76,7 +76,7 @@ export function Services() {
   )
 
   return (
-    <section ref={container} id="services" className="relative py-24 md:py-40 px-6 overflow-hidden">
+    <section ref={container} id="services" className="relative py-20 md:py-28 px-6 overflow-hidden">
       <GridPattern />
       <div className="relative container mx-auto max-w-6xl">
         {/* Header with image */}

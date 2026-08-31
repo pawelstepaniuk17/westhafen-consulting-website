@@ -48,8 +48,8 @@ export function Hero() {
 
   const words = ["Judgment", "for", "the", "decisions", "that", "endure."]
   const splitTitle = words.map((word, i) => (
-    <span key={i} className="inline-block overflow-hidden align-bottom pb-[0.3em] -mb-[0.3em]">
-      <span className={`inline-block ${word === "Judgment" ? "font-serif italic text-primary pr-[0.08em]" : ""}`}>
+    <span key={i} className="inline-block overflow-hidden align-bottom pb-[0.3em] -mb-[0.3em] pl-[0.12em] -ml-[0.12em]">
+      <span className={`inline-block ${word === "Judgment" ? "font-serif italic text-primary pr-[0.1em]" : ""}`}>
         {word}&nbsp;
       </span>
     </span>
