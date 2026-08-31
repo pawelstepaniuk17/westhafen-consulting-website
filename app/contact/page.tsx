@@ -61,7 +61,7 @@ export default function ContactPage() {
             <h2 className="font-serif text-2xl mb-8">Direct contact</h2>
             <div className="space-y-8">
               <div className="flex items-start gap-4">
-                <Mail size={20} className="text-[#9a2f43] mt-1 flex-shrink-0" />
+                <Mail size={20} className="text-[#d9556e] mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-1">Email</p>
                   <a href="mailto:support@westhafenconsulting.net" className="text-neutral-400 hover:text-white transition-colors">
@@ -70,7 +70,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <Phone size={20} className="text-[#9a2f43] mt-1 flex-shrink-0" />
+                <Phone size={20} className="text-[#d9556e] mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-3">Phone</p>
                   <div className="space-y-2">
@@ -86,7 +86,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <Clock size={20} className="text-[#9a2f43] mt-1 flex-shrink-0" />
+                <Clock size={20} className="text-[#d9556e] mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-1">Response time</p>
                   <p className="text-neutral-400 text-sm leading-relaxed">
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <MapPin size={20} className="text-[#9a2f43] mt-1 flex-shrink-0" />
+                <MapPin size={20} className="text-[#d9556e] mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-medium mb-3">Offices</p>
                   <div className="space-y-4 text-sm">

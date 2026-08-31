@@ -230,7 +230,7 @@ export default function MethodPage() {
               },
             ].map((item, idx) => (
               <div key={idx} className="flex gap-4">
-                <span className="text-[#9a2f43] mt-1.5 flex-shrink-0">
+                <span className="text-[#d9556e] mt-1.5 flex-shrink-0">
                   <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor">
                     <rect width="6" height="6" />
                   </svg>

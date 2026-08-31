@@ -169,7 +169,7 @@ export function ContactForm() {
       </button>
 
       <p className="text-xs text-neutral-500 leading-relaxed">
-        By submitting this form, you agree that we may use the information provided to respond to your inquiry. See our <a href="/privacy-policy" className="text-[#9a2f43] hover:underline">Privacy Policy</a> for details on how we handle your information.
+        By submitting this form, you agree that we may use the information provided to respond to your inquiry. See our <a href="/privacy-policy" className="text-[#d9556e] hover:underline">Privacy Policy</a> for details on how we handle your information.
       </p>
     </form>
   );

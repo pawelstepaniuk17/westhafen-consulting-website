@@ -20,25 +20,25 @@
     --card-foreground: 40 24% 94%;
     --popover: 221 44% 9%;
     --popover-foreground: 40 24% 94%;
-    /* Burgundy is the single authoritative accent */
-    --primary: 349 53% 39%;
-    --primary-foreground: 40 30% 96%;
+    /* Lightened red accent — legible for small text on the dark navy base */
+    --primary: 349 62% 55%;
+    --primary-foreground: 349 40% 12%;
     --secondary: 221 32% 15%;
     --secondary-foreground: 40 24% 94%;
     --muted: 221 30% 15%;
     --muted-foreground: 217 16% 66%;
-    --accent: 349 53% 39%;
-    --accent-foreground: 40 30% 96%;
+    --accent: 349 62% 55%;
+    --accent-foreground: 349 40% 12%;
     --destructive: 0 62.8% 40%;
     --destructive-foreground: 40 30% 96%;
     --border: 217 28% 18%;
     --input: 217 28% 18%;
-    --ring: 349 53% 39%;
-    --chart-1: 349 53% 39%;
+    --ring: 349 62% 55%;
+    --chart-1: 349 62% 55%;
     --chart-2: 200 40% 55%;
     --chart-3: 30 45% 50%;
     --chart-4: 210 30% 60%;
-    --chart-5: 349 40% 55%;
+    --chart-5: 349 50% 66%;
     --radius: 0.5rem;
     --sidebar-background: 222 44% 9%;
     --sidebar-foreground: 40 20% 90%;

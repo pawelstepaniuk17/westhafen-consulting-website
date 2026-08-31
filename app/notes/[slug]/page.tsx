@@ -136,7 +136,7 @@ export default async function NotesArticlePage({ params }: { params: Promise<{ s
           <div className="flex items-center gap-4 mb-6">
             <p className="text-xs uppercase tracking-widest text-neutral-500">{article.date}</p>
             <span className="text-neutral-600">|</span>
-            <p className="text-xs text-[#9a2f43]">{article.category}</p>
+            <p className="text-xs text-[#d9556e]">{article.category}</p>
           </div>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight mb-8">
             {article.title}
@@ -158,7 +158,7 @@ export default async function NotesArticlePage({ params }: { params: Promise<{ s
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
             <Link 
               href="/notes" 
-              className="inline-flex items-center gap-2 text-[#9a2f43] hover:text-[#7f2536] transition-colors text-sm"
+              className="inline-flex items-center gap-2 text-[#d9556e] hover:text-[#e8798e] transition-colors text-sm"
             >
               <ArrowLeft size={16} />
               All notes
@@ -175,7 +175,7 @@ export default async function NotesArticlePage({ params }: { params: Promise<{ s
               {nextSlug && (
                 <Link 
                   href={`/notes/${nextSlug}`}
-                  className="inline-flex items-center gap-2 text-[#9a2f43] hover:text-[#7f2536] transition-colors text-sm"
+                  className="inline-flex items-center gap-2 text-[#d9556e] hover:text-[#e8798e] transition-colors text-sm"
                 >
                   Next <ArrowRight size={16} />
                 </Link>

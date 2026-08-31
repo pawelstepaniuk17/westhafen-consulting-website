@@ -142,7 +142,7 @@ export default function MandatesPage() {
                     <p className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-4">Typical scope areas</p>
                     {mandate.bullets.map((bullet, bidx) => (
                       <div key={bidx} className="flex gap-4 items-start">
-                        <span className="text-[#9a2f43] mt-1.5">
+                        <span className="text-[#d9556e] mt-1.5">
                           <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor">
                             <rect width="6" height="6" />
                           </svg>
